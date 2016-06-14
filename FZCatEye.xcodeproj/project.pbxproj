@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		967342F91D103BF100287141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 967342F81D103BF100287141 /* main.m */; };
+		967342FC1D103BF100287141 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 967342FB1D103BF100287141 /* AppDelegate.m */; };
+		967343041D103BF100287141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 967343031D103BF100287141 /* Assets.xcassets */; };
+		967343071D103BF100287141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967343051D103BF100287141 /* LaunchScreen.storyboard */; };
+		9673432E1D103EC100287141 /* FZTaBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9673432D1D103EC100287141 /* FZTaBarController.m */; };
+		967343381D103F4E00287141 /* FZFZMoiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967343371D103F4E00287141 /* FZFZMoiveController.m */; };
+		967343421D103FF200287141 /* FZMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967343401D103FF200287141 /* FZMineController.m */; };
+		967343431D103FF200287141 /* FZMineController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 967343411D103FF200287141 /* FZMineController.xib */; };
+		967343471D10400300287141 /* FZDiscoveryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967343451D10400300287141 /* FZDiscoveryController.m */; };
+		967343481D10400300287141 /* FZDiscoveryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 967343461D10400300287141 /* FZDiscoveryController.xib */; };
+		9673434C1D10401F00287141 /* FZCinemaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9673434A1D10401F00287141 /* FZCinemaController.m */; };
+		9673434D1D10401F00287141 /* FZCinemaController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9673434B1D10401F00287141 /* FZCinemaController.xib */; };
+		967343551D1049E600287141 /* FZNavTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 967343541D1049E600287141 /* FZNavTitleView.xib */; };
+		9673435A1D104DA800287141 /* UIView+FZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 967343591D104DA800287141 /* UIView+FZExtension.m */; };
+		9673435D1D104E1B00287141 /* FZNavTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9673435C1D104E1B00287141 /* FZNavTitleView.m */; };
+		967343791D104F8100287141 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9673435F1D104F8100287141 /* Info.plist */; };
+		9673437A1D104F8100287141 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 967343611D104F8100287141 /* MASCompositeConstraint.m */; };
+		9673437B1D104F8100287141 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 967343641D104F8100287141 /* MASConstraint.m */; };
+		9673437C1D104F8100287141 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 967343661D104F8100287141 /* MASConstraintMaker.m */; };
+		9673437D1D104F8100287141 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 967343681D104F8100287141 /* MASLayoutConstraint.m */; };
+		9673437E1D104F8100287141 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 9673436C1D104F8100287141 /* MASViewAttribute.m */; };
+		9673437F1D104F8100287141 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9673436E1D104F8100287141 /* MASViewConstraint.m */; };
+		967343801D104F8100287141 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 967343701D104F8100287141 /* NSArray+MASAdditions.m */; };
+		967343811D104F8100287141 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 967343731D104F8100287141 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		967343821D104F8100287141 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 967343751D104F8100287141 /* View+MASAdditions.m */; };
+		967343831D104F8100287141 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 967343781D104F8100287141 /* ViewController+MASAdditions.m */; };
+		967343861D1050B300287141 /* FZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967343851D1050B300287141 /* FZNavigationController.m */; };
+		967343901D1058DD00287141 /* FZToReflect Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 9673438E1D1058DD00287141 /* FZToReflect Controller.m */; };
+		967343911D1058DD00287141 /* FZToReflect Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9673438F1D1058DD00287141 /* FZToReflect Controller.xib */; };
+		967343951D10591C00287141 /* FZAbroadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967343931D10591C00287141 /* FZAbroadController.m */; };
+		967343961D10591C00287141 /* FZAbroadController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 967343941D10591C00287141 /* FZAbroadController.xib */; };
+		9673439A1D105A2D00287141 /* FZHotLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967343981D105A2D00287141 /* FZHotLineController.m */; };
+		9673439B1D105A2D00287141 /* FZHotLineController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 967343991D105A2D00287141 /* FZHotLineController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		967342F41D103BF100287141 /* FZCatEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZCatEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		967342F81D103BF100287141 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		967342FA1D103BF100287141 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../../AppDelegate.h; sourceTree = "<group>"; };
+		967342FB1D103BF100287141 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../../AppDelegate.m; sourceTree = "<group>"; };
+		967343031D103BF100287141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		967343061D103BF100287141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		967343081D103BF100287141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9673432C1D103EC100287141 /* FZTaBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZTaBarController.h; sourceTree = "<group>"; };
+		9673432D1D103EC100287141 /* FZTaBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZTaBarController.m; sourceTree = "<group>"; };
+		967343361D103F4E00287141 /* FZFZMoiveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZFZMoiveController.h; sourceTree = "<group>"; };
+		967343371D103F4E00287141 /* FZFZMoiveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZFZMoiveController.m; sourceTree = "<group>"; };
+		9673433F1D103FF200287141 /* FZMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZMineController.h; sourceTree = "<group>"; };
+		967343401D103FF200287141 /* FZMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZMineController.m; sourceTree = "<group>"; };
+		967343411D103FF200287141 /* FZMineController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FZMineController.xib; sourceTree = "<group>"; };
+		967343441D10400300287141 /* FZDiscoveryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZDiscoveryController.h; sourceTree = "<group>"; };
+		967343451D10400300287141 /* FZDiscoveryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZDiscoveryController.m; sourceTree = "<group>"; };
+		967343461D10400300287141 /* FZDiscoveryController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FZDiscoveryController.xib; sourceTree = "<group>"; };
+		967343491D10401F00287141 /* FZCinemaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZCinemaController.h; sourceTree = "<group>"; };
+		9673434A1D10401F00287141 /* FZCinemaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZCinemaController.m; sourceTree = "<group>"; };
+		9673434B1D10401F00287141 /* FZCinemaController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FZCinemaController.xib; sourceTree = "<group>"; };
+		967343541D1049E600287141 /* FZNavTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FZNavTitleView.xib; sourceTree = "<group>"; };
+		967343581D104DA800287141 /* UIView+FZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FZExtension.h"; sourceTree = "<group>"; };
+		967343591D104DA800287141 /* UIView+FZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FZExtension.m"; sourceTree = "<group>"; };
+		9673435B1D104E1B00287141 /* FZNavTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZNavTitleView.h; sourceTree = "<group>"; };
+		9673435C1D104E1B00287141 /* FZNavTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZNavTitleView.m; sourceTree = "<group>"; };
+		9673435F1D104F8100287141 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		967343601D104F8100287141 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		967343611D104F8100287141 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		967343621D104F8100287141 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		967343631D104F8100287141 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		967343641D104F8100287141 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		967343651D104F8100287141 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		967343661D104F8100287141 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		967343671D104F8100287141 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		967343681D104F8100287141 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		967343691D104F8100287141 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		9673436A1D104F8100287141 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		9673436B1D104F8100287141 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		9673436C1D104F8100287141 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		9673436D1D104F8100287141 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		9673436E1D104F8100287141 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		9673436F1D104F8100287141 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		967343701D104F8100287141 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		967343711D104F8100287141 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		967343721D104F8100287141 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		967343731D104F8100287141 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		967343741D104F8100287141 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		967343751D104F8100287141 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		967343761D104F8100287141 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		967343771D104F8100287141 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		967343781D104F8100287141 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		967343841D1050B300287141 /* FZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZNavigationController.h; sourceTree = "<group>"; };
+		967343851D1050B300287141 /* FZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZNavigationController.m; sourceTree = "<group>"; };
+		9673438D1D1058DD00287141 /* FZToReflect Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FZToReflect Controller.h"; sourceTree = "<group>"; };
+		9673438E1D1058DD00287141 /* FZToReflect Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FZToReflect Controller.m"; sourceTree = "<group>"; };
+		9673438F1D1058DD00287141 /* FZToReflect Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "FZToReflect Controller.xib"; sourceTree = "<group>"; };
+		967343921D10591C00287141 /* FZAbroadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZAbroadController.h; sourceTree = "<group>"; };
+		967343931D10591C00287141 /* FZAbroadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZAbroadController.m; sourceTree = "<group>"; };
+		967343941D10591C00287141 /* FZAbroadController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FZAbroadController.xib; sourceTree = "<group>"; };
+		967343971D105A2D00287141 /* FZHotLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZHotLineController.h; sourceTree = "<group>"; };
+		967343981D105A2D00287141 /* FZHotLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZHotLineController.m; sourceTree = "<group>"; };
+		967343991D105A2D00287141 /* FZHotLineController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FZHotLineController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		967342F11D103BF100287141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		967342EB1D103BF100287141 = {
+			isa = PBXGroup;
+			children = (
+				967342F61D103BF100287141 /* FZCatEye */,
+				967342F51D103BF100287141 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		967342F51D103BF100287141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				967342F41D103BF100287141 /* FZCatEye.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		967342F61D103BF100287141 /* FZCatEye */ = {
+			isa = PBXGroup;
+			children = (
+				967343561D104DA800287141 /* Categorys */,
+				9673431A1D103CF800287141 /* Main */,
+				967343261D103CF800287141 /* Moive */,
+				9673430E1D103CF800287141 /* Cinema */,
+				967343141D103CF800287141 /* Discovery */,
+				967343201D103CF800287141 /* Mine */,
+				967342F71D103BF100287141 /* Supporting Files */,
+			);
+			path = FZCatEye;
+			sourceTree = "<group>";
+		};
+		967342F71D103BF100287141 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9673435E1D104F8100287141 /* Masonry */,
+				967343031D103BF100287141 /* Assets.xcassets */,
+				967343051D103BF100287141 /* LaunchScreen.storyboard */,
+				967343081D103BF100287141 /* Info.plist */,
+				967342F81D103BF100287141 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9673430E1D103CF800287141 /* Cinema */ = {
+			isa = PBXGroup;
+			children = (
+				9673430F1D103CF800287141 /* Categorys */,
+				967343111D103CF800287141 /* Models */,
+				967343131D103CF800287141 /* Views */,
+				967343101D103CF800287141 /* Controllers */,
+				967343121D103CF800287141 /* Others */,
+			);
+			name = Cinema;
+			path = Classes/Cinema;
+			sourceTree = "<group>";
+		};
+		9673430F1D103CF800287141 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		967343101D103CF800287141 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				967343491D10401F00287141 /* FZCinemaController.h */,
+				9673434A1D10401F00287141 /* FZCinemaController.m */,
+				9673434B1D10401F00287141 /* FZCinemaController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		967343111D103CF800287141 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		967343121D103CF800287141 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		967343131D103CF800287141 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		967343141D103CF800287141 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				967343151D103CF800287141 /* Categorys */,
+				967343171D103CF800287141 /* Models */,
+				967343191D103CF800287141 /* Views */,
+				967343161D103CF800287141 /* Controllers */,
+				967343181D103CF800287141 /* Others */,
+			);
+			name = Discovery;
+			path = Classes/Discovery;
+			sourceTree = "<group>";
+		};
+		967343151D103CF800287141 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		967343161D103CF800287141 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				967343441D10400300287141 /* FZDiscoveryController.h */,
+				967343451D10400300287141 /* FZDiscoveryController.m */,
+				967343461D10400300287141 /* FZDiscoveryController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		967343171D103CF800287141 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		967343181D103CF800287141 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		967343191D103CF800287141 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9673431A1D103CF800287141 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9673431D1D103CF800287141 /* Models */,
+				9673431F1D103CF800287141 /* Views */,
+				9673431C1D103CF800287141 /* Controllers */,
+				9673431E1D103CF800287141 /* Others */,
+			);
+			name = Main;
+			path = Classes/Main;
+			sourceTree = "<group>";
+		};
+		9673431C1D103CF800287141 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9673432C1D103EC100287141 /* FZTaBarController.h */,
+				9673432D1D103EC100287141 /* FZTaBarController.m */,
+				967343841D1050B300287141 /* FZNavigationController.h */,
+				967343851D1050B300287141 /* FZNavigationController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9673431D1D103CF800287141 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9673431E1D103CF800287141 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				967342FA1D103BF100287141 /* AppDelegate.h */,
+				967342FB1D103BF100287141 /* AppDelegate.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		9673431F1D103CF800287141 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		967343201D103CF800287141 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				967343211D103CF800287141 /* Categorys */,
+				967343231D103CF800287141 /* Models */,
+				967343251D103CF800287141 /* Views */,
+				967343221D103CF800287141 /* Controllers */,
+				967343241D103CF800287141 /* Others */,
+			);
+			name = Mine;
+			path = Classes/Mine;
+			sourceTree = "<group>";
+		};
+		967343211D103CF800287141 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		967343221D103CF800287141 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9673433F1D103FF200287141 /* FZMineController.h */,
+				967343401D103FF200287141 /* FZMineController.m */,
+				967343411D103FF200287141 /* FZMineController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		967343231D103CF800287141 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		967343241D103CF800287141 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		967343251D103CF800287141 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		967343261D103CF800287141 /* Moive */ = {
+			isa = PBXGroup;
+			children = (
+				967343271D103CF800287141 /* Categorys */,
+				967343291D103CF800287141 /* Models */,
+				9673432B1D103CF800287141 /* Views */,
+				967343281D103CF800287141 /* Controllers */,
+				9673432A1D103CF800287141 /* Others */,
+			);
+			name = Moive;
+			path = Classes/Moive;
+			sourceTree = "<group>";
+		};
+		967343271D103CF800287141 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		967343281D103CF800287141 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				967343871D10584A00287141 /* SonController */,
+				967343361D103F4E00287141 /* FZFZMoiveController.h */,
+				967343371D103F4E00287141 /* FZFZMoiveController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		967343291D103CF800287141 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9673432A1D103CF800287141 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		9673432B1D103CF800287141 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9673435B1D104E1B00287141 /* FZNavTitleView.h */,
+				9673435C1D104E1B00287141 /* FZNavTitleView.m */,
+				967343541D1049E600287141 /* FZNavTitleView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		967343561D104DA800287141 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				967343571D104DA800287141 /* UIViewTool */,
+			);
+			name = Categorys;
+			path = Classes/Categorys;
+			sourceTree = "<group>";
+		};
+		967343571D104DA800287141 /* UIViewTool */ = {
+			isa = PBXGroup;
+			children = (
+				967343581D104DA800287141 /* UIView+FZExtension.h */,
+				967343591D104DA800287141 /* UIView+FZExtension.m */,
+			);
+			path = UIViewTool;
+			sourceTree = "<group>";
+		};
+		9673435E1D104F8100287141 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				9673435F1D104F8100287141 /* Info.plist */,
+				967343601D104F8100287141 /* MASCompositeConstraint.h */,
+				967343611D104F8100287141 /* MASCompositeConstraint.m */,
+				967343621D104F8100287141 /* MASConstraint+Private.h */,
+				967343631D104F8100287141 /* MASConstraint.h */,
+				967343641D104F8100287141 /* MASConstraint.m */,
+				967343651D104F8100287141 /* MASConstraintMaker.h */,
+				967343661D104F8100287141 /* MASConstraintMaker.m */,
+				967343671D104F8100287141 /* MASLayoutConstraint.h */,
+				967343681D104F8100287141 /* MASLayoutConstraint.m */,
+				967343691D104F8100287141 /* Masonry.h */,
+				9673436A1D104F8100287141 /* MASUtilities.h */,
+				9673436B1D104F8100287141 /* MASViewAttribute.h */,
+				9673436C1D104F8100287141 /* MASViewAttribute.m */,
+				9673436D1D104F8100287141 /* MASViewConstraint.h */,
+				9673436E1D104F8100287141 /* MASViewConstraint.m */,
+				9673436F1D104F8100287141 /* NSArray+MASAdditions.h */,
+				967343701D104F8100287141 /* NSArray+MASAdditions.m */,
+				967343711D104F8100287141 /* NSArray+MASShorthandAdditions.h */,
+				967343721D104F8100287141 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				967343731D104F8100287141 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				967343741D104F8100287141 /* View+MASAdditions.h */,
+				967343751D104F8100287141 /* View+MASAdditions.m */,
+				967343761D104F8100287141 /* View+MASShorthandAdditions.h */,
+				967343771D104F8100287141 /* ViewController+MASAdditions.h */,
+				967343781D104F8100287141 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		967343871D10584A00287141 /* SonController */ = {
+			isa = PBXGroup;
+			children = (
+				967343971D105A2D00287141 /* FZHotLineController.h */,
+				967343981D105A2D00287141 /* FZHotLineController.m */,
+				967343991D105A2D00287141 /* FZHotLineController.xib */,
+				9673438D1D1058DD00287141 /* FZToReflect Controller.h */,
+				9673438E1D1058DD00287141 /* FZToReflect Controller.m */,
+				9673438F1D1058DD00287141 /* FZToReflect Controller.xib */,
+				967343921D10591C00287141 /* FZAbroadController.h */,
+				967343931D10591C00287141 /* FZAbroadController.m */,
+				967343941D10591C00287141 /* FZAbroadController.xib */,
+			);
+			path = SonController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		967342F31D103BF100287141 /* FZCatEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9673430B1D103BF100287141 /* Build configuration list for PBXNativeTarget "FZCatEye" */;
+			buildPhases = (
+				967342F01D103BF100287141 /* Sources */,
+				967342F11D103BF100287141 /* Frameworks */,
+				967342F21D103BF100287141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FZCatEye;
+			productName = FZCatEye;
+			productReference = 967342F41D103BF100287141 /* FZCatEye.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		967342EC1D103BF100287141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FZ;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "李忠";
+				TargetAttributes = {
+					967342F31D103BF100287141 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = V95KBWNTTD;
+					};
+				};
+			};
+			buildConfigurationList = 967342EF1D103BF100287141 /* Build configuration list for PBXProject "FZCatEye" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 967342EB1D103BF100287141;
+			productRefGroup = 967342F51D103BF100287141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				967342F31D103BF100287141 /* FZCatEye */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		967342F21D103BF100287141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9673434D1D10401F00287141 /* FZCinemaController.xib in Resources */,
+				967343431D103FF200287141 /* FZMineController.xib in Resources */,
+				967343071D103BF100287141 /* LaunchScreen.storyboard in Resources */,
+				967343481D10400300287141 /* FZDiscoveryController.xib in Resources */,
+				967343041D103BF100287141 /* Assets.xcassets in Resources */,
+				967343961D10591C00287141 /* FZAbroadController.xib in Resources */,
+				967343911D1058DD00287141 /* FZToReflect Controller.xib in Resources */,
+				967343551D1049E600287141 /* FZNavTitleView.xib in Resources */,
+				967343791D104F8100287141 /* Info.plist in Resources */,
+				9673439B1D105A2D00287141 /* FZHotLineController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		967342F01D103BF100287141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9673437F1D104F8100287141 /* MASViewConstraint.m in Sources */,
+				967343471D10400300287141 /* FZDiscoveryController.m in Sources */,
+				9673439A1D105A2D00287141 /* FZHotLineController.m in Sources */,
+				9673437E1D104F8100287141 /* MASViewAttribute.m in Sources */,
+				9673435A1D104DA800287141 /* UIView+FZExtension.m in Sources */,
+				967343381D103F4E00287141 /* FZFZMoiveController.m in Sources */,
+				9673432E1D103EC100287141 /* FZTaBarController.m in Sources */,
+				9673437A1D104F8100287141 /* MASCompositeConstraint.m in Sources */,
+				9673437C1D104F8100287141 /* MASConstraintMaker.m in Sources */,
+				967343821D104F8100287141 /* View+MASAdditions.m in Sources */,
+				9673437D1D104F8100287141 /* MASLayoutConstraint.m in Sources */,
+				967343831D104F8100287141 /* ViewController+MASAdditions.m in Sources */,
+				9673437B1D104F8100287141 /* MASConstraint.m in Sources */,
+				967342FC1D103BF100287141 /* AppDelegate.m in Sources */,
+				967343951D10591C00287141 /* FZAbroadController.m in Sources */,
+				9673435D1D104E1B00287141 /* FZNavTitleView.m in Sources */,
+				967343901D1058DD00287141 /* FZToReflect Controller.m in Sources */,
+				967343801D104F8100287141 /* NSArray+MASAdditions.m in Sources */,
+				967343811D104F8100287141 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				967343421D103FF200287141 /* FZMineController.m in Sources */,
+				967342F91D103BF100287141 /* main.m in Sources */,
+				9673434C1D10401F00287141 /* FZCinemaController.m in Sources */,
+				967343861D1050B300287141 /* FZNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		967343051D103BF100287141 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				967343061D103BF100287141 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		967343091D103BF100287141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9673430A1D103BF100287141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9673430C1D103BF100287141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FZCatEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teyuans.FZCatEye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		9673430D1D103BF100287141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FZCatEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teyuans.FZCatEye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		967342EF1D103BF100287141 /* Build configuration list for PBXProject "FZCatEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967343091D103BF100287141 /* Debug */,
+				9673430A1D103BF100287141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9673430B1D103BF100287141 /* Build configuration list for PBXNativeTarget "FZCatEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9673430C1D103BF100287141 /* Debug */,
+				9673430D1D103BF100287141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 967342EC1D103BF100287141 /* Project object */;
+}

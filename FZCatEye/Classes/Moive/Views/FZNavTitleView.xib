@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="T41-yT-XyS" customClass="FZNavTitleView">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="热映" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="naV-0q-p74">
+                    <rect key="frame" x="0.0" y="0.0" width="50" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="待映" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BeS-XH-3qV">
+                    <rect key="frame" x="49" y="0.0" width="50.5" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="海外" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsB-pd-CwK">
+                    <rect key="frame" x="100" y="0.0" width="50" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qut-ys-vOl" userLabel="coverView">
+                    <rect key="frame" x="0.0" y="0.0" width="50" height="30"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="热映" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5x-KL-8Ht" userLabel="热映">
+                            <rect key="frame" x="0.0" y="0.0" width="50" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="0.0" blue="0.020532956710000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="c5x-KL-8Ht" secondAttribute="trailing" id="ECi-wd-28a"/>
+                        <constraint firstAttribute="bottom" secondItem="c5x-KL-8Ht" secondAttribute="bottom" id="PPa-p4-R3B"/>
+                        <constraint firstItem="c5x-KL-8Ht" firstAttribute="leading" secondItem="qut-ys-vOl" secondAttribute="leading" id="n2x-Y8-QJe"/>
+                        <constraint firstItem="c5x-KL-8Ht" firstAttribute="top" secondItem="qut-ys-vOl" secondAttribute="top" id="txS-oO-fLw"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.78264508929999999" green="0.027651257929999999" blue="0.20976960259999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="qut-ys-vOl" secondAttribute="bottom" id="5df-Y3-1GF"/>
+                <constraint firstItem="WsB-pd-CwK" firstAttribute="top" secondItem="T41-yT-XyS" secondAttribute="top" id="9CX-VU-ZOc"/>
+                <constraint firstItem="BeS-XH-3qV" firstAttribute="top" secondItem="T41-yT-XyS" secondAttribute="top" id="AUV-Ih-WWg"/>
+                <constraint firstItem="BeS-XH-3qV" firstAttribute="leading" secondItem="naV-0q-p74" secondAttribute="trailing" id="ESp-Wo-zN6"/>
+                <constraint firstItem="qut-ys-vOl" firstAttribute="leading" secondItem="T41-yT-XyS" secondAttribute="leading" id="H8n-dM-8DR"/>
+                <constraint firstAttribute="trailing" secondItem="WsB-pd-CwK" secondAttribute="trailing" id="Jur-KJ-vw3"/>
+                <constraint firstAttribute="bottom" secondItem="naV-0q-p74" secondAttribute="bottom" id="KXM-8a-ROz"/>
+                <constraint firstItem="qut-ys-vOl" firstAttribute="width" secondItem="naV-0q-p74" secondAttribute="width" id="OGR-y8-sFL"/>
+                <constraint firstItem="WsB-pd-CwK" firstAttribute="leading" secondItem="BeS-XH-3qV" secondAttribute="trailing" id="Uzm-u7-SNX"/>
+                <constraint firstItem="BeS-XH-3qV" firstAttribute="width" secondItem="naV-0q-p74" secondAttribute="width" id="Xs1-BY-dAc"/>
+                <constraint firstItem="naV-0q-p74" firstAttribute="leading" secondItem="T41-yT-XyS" secondAttribute="leading" id="edo-ed-BT9"/>
+                <constraint firstItem="WsB-pd-CwK" firstAttribute="width" secondItem="naV-0q-p74" secondAttribute="width" id="kSV-Am-3Do"/>
+                <constraint firstItem="qut-ys-vOl" firstAttribute="top" secondItem="T41-yT-XyS" secondAttribute="top" id="pge-Xb-bMh"/>
+                <constraint firstAttribute="bottom" secondItem="WsB-pd-CwK" secondAttribute="bottom" id="sEi-hg-R1t"/>
+                <constraint firstItem="naV-0q-p74" firstAttribute="top" secondItem="T41-yT-XyS" secondAttribute="top" id="vd1-vZ-1BD"/>
+                <constraint firstAttribute="bottom" secondItem="BeS-XH-3qV" secondAttribute="bottom" id="yft-sE-cgl"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="coverLabel" destination="c5x-KL-8Ht" id="tRk-k4-eLP"/>
+                <outlet property="coverView" destination="qut-ys-vOl" id="vZY-cJ-ZWk"/>
+                <outlet property="leadingHot" destination="H8n-dM-8DR" id="fen-b8-Sgp"/>
+            </connections>
+            <point key="canvasLocation" x="142" y="254"/>
+        </view>
+    </objects>
+</document>
