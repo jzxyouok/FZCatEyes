@@ -30,7 +30,7 @@
     
     FZNavigationController *discoveryNv = [self getNavWithVc:[[FZDiscoveryController alloc] init] withImageName:@"icon_route_car_normal" withTitle:@"发现"];
     
-    FZNavigationController *mineNv = [self getNavWithVc:[[FZMineController alloc] init] withImageName:@"icon_route_car_normal" withTitle:@"我"];
+    FZNavigationController *mineNv = [self getNavWithVc:[[FZMineController alloc] init] withImageName:@"icon_route_car_normal" withTitle:@"我的"];
     
     self.viewControllers = @[movieNv, cinemaNv, discoveryNv, mineNv];
     
